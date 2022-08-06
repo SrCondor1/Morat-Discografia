@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+@media only screen and (min-width: 769px) {
+  .navbar {
+    width: max-content; } }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    width: auto; }
+  .nav-item:hover {
+    margin-left: 10px;
+    display: flex; } }
+
+header {
+  background-image: url("../img/assets/backgraound2.webp");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 25%;
+  height: 610px; }
+  header .container_header_link {
+    background-color: rgba(162, 72, 37, 0.9);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    height: auto; }
+    header .container_header_link .btn-social:hover {
+      transition-duration: 0.6s;
+      transform: scale(1.2);
+      transform-origin: top; }
+    header .container_header_link .icon_socialini {
+      width: 31px; }
+    header .container_header_link .icon_social_musicalini {
+      width: 31px; }
+  header .container_nav_header {
+    border-radius: 5px;
+    background-color: rgba(229, 32, 42, 0.781);
+    margin: 30px;
+    display: flex; }
+    header .container_nav_header .navbar-brand {
+      text-decoration: none;
+      font-size: larger;
+      font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+    header .container_nav_header .navbar {
+      background-color: rgba(229, 32, 42, 0.781); }
+    header .container_nav_header .nav-link {
+      font-size: larger;
+      color: white;
+      font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+      header .container_nav_header .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.781);
+        width: max-content;
+        color: black;
+        border-radius: 10px; }
+
+.headerfondos {
+  background-image: url("../img/assets/backgroundFondos.webp");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 25%;
+  height: 610px; }
+
+.headerdisco {
+  background-image: url("../img/assets/backgroundiscografia.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 50%;
+  height: 610px; }
+
+.headerbio {
+  background-image: url("../img/assets/R2.jpg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 5%; }
+
+.headercontacto {
+  background-image: url("../img/assets/BackgroundContacto.jpg"); }
+
+.container_form {
+  background-color: rgba(240, 150, 65, 0.9);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px auto;
+  width: 300px;
+  font-size: 1em; }
+  .container_form input, .container_form textarea {
+    border: 0;
+    outline: none; }
+  .container_form .field {
+    border-radius: 5px;
+    border: solid 1px rgba(194, 52, 52, 0.9);
+    padding: 10px;
+    width: 250px; }
+  .container_form .btn {
+    margin-left: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: aliceblue;
+    border: solid 1px rgba(194, 52, 52, 0.9); }
+  .container_form .borrar {
+    border-radius: 10px;
+    border: solid 1px rgba(202, 53, 53, 0.9);
+    margin-top: 10px;
+    padding: 10px; }
+
+footer {
+  background-color: rgba(229, 32, 42, 0.9);
+  display: flex;
+  font-size: larger;
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif; }
+  footer div span {
+    color: white; }
+  footer ul li img {
+    height: 7vh;
+    margin: 3px; }
+
+/*button volver arriba*/
+.btnTop {
+  margin: 20px; }
+
+.btn-dark a, .btn-secondary a a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: large; }
+
+/*corregir btn de ir atras en fondos de pantalla pc y mobile*/
+/*Tituloindex*/
+.item_h1-1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+/*Titulo discografia, Biografia y top10*/
+.discografia_h2, .biografia, .item_top-1 {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 5px; }
+
+/*Fondos*/
+.fotomobile {
+  margin: 10px;
+  width: 30vh; }
+
+.fondopc, .fondopc18 {
+  margin: 10px;
+  height: 45vh; }
+
+.fondomobb {
+  border-radius: 5px; }
+
+.text-fondos {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: 1.5rem; }
+
+.a-fondos {
+  font-family: "Open Sans", sans-serif, "Red Hat Mono", monospace, "Ubuntu", sans-serif;
+  font-size: medium;
+  text-decoration: none; }
+
+/*discografia, albumes por separado*/
+.accordion {
+  width: auto; }
+
+.album {
+  display: flex;
+  justify-content: center; }
+
+.Sobreelamor {
+  border-radius: 10px;
+  width: 450px;
+  height: 690px; }
+
+.Adondevamos {
+  border-radius: 10px;
+  width: 450px;
+  height: 520px; }
+
+.Balasperdidas {
+  border-radius: 10px;
+  width: 450px;
+  height: 460px; }
+
+.grabadoenmadera {
+  border-radius: 10px;
+  width: 450px;
+  height: 100px; }
+
+.container {
+  margin-top: 30px; }
+
+.accordion {
+  width: 500px; }

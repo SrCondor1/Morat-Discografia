@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+@import "utilities/variables";
+@import "layout/medias";
+@import "layout/_header";
+@import "layout/_mainContacto";
+@import "layout/_footer.scss";
+
+/*button volver arriba*/
+.btnTop{
+    margin: 20px;
+} 
+.btn-dark a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:$FuentePrincipal ;
+    font-size: large;
+}
+.btn-secondary a{
+    @extend .btn-dark
+};
+/*corregir btn de ir atras en fondos de pantalla pc y mobile*/
+
+/*Tituloindex*/
+.item_h1-1{
+    display: flex;
+    justify-content: center;
+    padding: map-get($padding , p-10 );
+}
+/*Titulo discografia, Biografia y top10*/
+.discografia_h2, .biografia, .item_top-1{
+    font-family: $FuentePrincipal;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+/*Fondos*/
+.fotomobile{
+    margin: 10px;
+    width: 30vh;
+}
+.fondopc, .fondopc18{
+    margin: 10px;
+    height:45vh ;
+}
+.fondomobb{
+    border-radius: 5px;
+}
+.text-fondos{
+    font-family: $FuentePrincipal;
+    font-size: 1.5rem;
+}
+.a-fondos{
+    font-family: $FuentePrincipal;
+    font-size: medium;
+    text-decoration: none;
+}
+/*discografia, albumes por separado*/
+.accordion{
+    width: auto
+}
+.album{
+    display: flex;
+    justify-content: center;
+}
+.Sobreelamor{
+    border-radius: 10px;
+    width: 450px;
+    height: 690px
+} 
+.Adondevamos{
+    border-radius: 10px;
+    width: 450px;
+    height: 520px;
+}
+.Balasperdidas{
+    border-radius: 10px;
+    width: 450px;
+    height: 460px;
+}
+.grabadoenmadera{
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+}
+.container{
+    margin-top: 30px;
+}
+.accordion{
+    width: 500px;
+}
+

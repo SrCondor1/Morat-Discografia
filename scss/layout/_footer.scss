@@ -1,0 +1,11 @@
+footer{
+    @include Footer;
+    div span{
+            color:rgb(255, 255, 255);
+        }
+    
+    ul li img {
+        height: 7vh;
+        margin: 3px;
+    }
+}

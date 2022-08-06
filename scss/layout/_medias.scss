@@ -1,0 +1,17 @@
+@media only screen and (min-width:769px) {
+    .navbar{
+        width:max-content;
+    }
+}
+@media only screen and (max-width:768px) {
+    .navbar{
+        width:auto;
+    }
+    .nav-item:hover{
+        margin-left: 10px;
+        display: flex;
+    }
+}
+
+
+

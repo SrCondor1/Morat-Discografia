@@ -1,0 +1,16 @@
+$FuentePrincipal:'Open Sans', sans-serif, 'Red Hat Mono', monospace, 'Ubuntu', sans-serif;
+$ColorPrincipal:rgba(229, 32, 42, 0.781);
+$ColorFooter:rgba(229, 32, 42, 0.9);
+@mixin Footer {
+    background-color: $ColorFooter;
+    display: flex;
+    font-size: larger;
+    font-family: $FuentePrincipal;
+}
+$ColorHeaderRedes:rgba(162, 72, 37, 0.9);
+
+$padding:(
+    p-10: 10px,
+    p-20: 20px,
+    p-30: 30px,
+);
